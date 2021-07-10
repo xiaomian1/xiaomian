@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2021/07100.html"/>
+      <url>/2021/07100.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="指令说明"><a href="#指令说明" class="headerlink" title="指令说明"></a>指令说明</h3><p>hexo server #启动本地服务器，用于预览主题。Hexo 会监视文件变动并自动更新，除修改站点配置文件外,无须重启服务器,直接刷新网页即可生效。</p><p>hexo server -s #以静态模式启动</p><p>hexo server -p 5000 #更改访问端口 (默认端口为4000，’ctrl + c’关闭server)</p><p>hexo server -i IP地址 #自定义 IP</p><p>hexo clean #清除缓存 ,网页正常情况下可以忽略此条命令,执行该指令后,会删掉站点根目录下的public文件夹</p><p>hexo g #生成静态网页 (执行 $ hexo g后会在站点根目录下生成public文件夹, hexo会将”/blog/source/“ 下面的.md后缀的文件编译为.html后缀的文件,存放在”/blog/public/ “ 路径下)</p><p>hexo d #自动生成网站静态文件，并将本地数据部署到设定的仓库(如github)</p><p>hexo init 文件夹名称 #初始化XX文件夹名称</p><p>npm update hexo -g#升级</p><p>npm install hexo -g #安装</p><p>node-v #查看node.js版本号</p><p>npm -v #查看npm版本号</p><p>git –version #查看git版本号</p><p>hexo -v #查看hexo版本号</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2021/070916107.html"/>
       <url>/2021/070916107.html</url>
