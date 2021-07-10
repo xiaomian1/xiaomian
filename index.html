@@ -409,7 +409,7 @@
         }
 
         coverSlider.carousel({
-            duration: Number('120'),
+            duration: Number('100'),
             fullWidth: true,
             indicators: 'true' === 'true',
             onCycleTo() {
@@ -427,7 +427,7 @@
         let autoCarousel = function () {
             carouselIntervalId = setInterval(function () {
                 coverSlider.carousel('next');
-            }, 5000);
+            }, 200);
         };
         autoCarousel();
         
@@ -466,7 +466,7 @@
                         <div class="dream">
     
     <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我有一个梦想
+        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
     </div>
     
     <div class="row">
